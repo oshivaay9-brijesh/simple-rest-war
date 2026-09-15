@@ -4,6 +4,7 @@ pipeline {
     tools {
         jdk 'java21'       // Name from Jenkins Global Tool Config
         maven 'maven'    // Name from Jenkins Global Tool Config
+        GIT 'GIT'
     }
 
     stages {

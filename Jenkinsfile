@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/bks-tech/simple-rest-war.git', branch: 'main'
+                git url: 'https://github.com/bks-tech/simple-rest-war.git', branch: 'master'
             }
         }
 
